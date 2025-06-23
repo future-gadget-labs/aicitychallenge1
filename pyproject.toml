@@ -5,6 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "defisheye>=1.4.1",
+    "ipykernel>=6.29.5",
+    "opencv-python>=4.11.0.86",
+    "pandas>=2.3.0",
+    "pycocotools>=2.0.10",
+    "requests>=2.32.4",
+    "seaborn>=0.13.2",
     "torch>=2.7.0",
     "torchvision>=0.22.0",
+    "ultralytics>=8.3.158",
 ]
