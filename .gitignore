@@ -196,3 +196,5 @@ cython_debug/
 # Datasets
 data
 dataset
+fisheye_yolo_dataset
+submission

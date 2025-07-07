@@ -1,0 +1,7 @@
+path: fisheye_yolo_dataset
+
+train: train/images
+val: val/images
+
+nc: 5
+names: ['Bus', 'Bike', 'Car', 'Pedestrian', 'Truck']

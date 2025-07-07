@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  yolo_inference:
+    build: .
+    volumes:
+      - ./:/app
+    command: --model /app/yolo11n.pt --video /app/sample_video_2.mp4 --output /app/output.mp4 --log-level DEBUG
